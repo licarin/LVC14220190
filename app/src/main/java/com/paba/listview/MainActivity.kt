@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         _lv1.setOnItemClickListener { parent, view, position, id ->
-            Toast.makeText(this,"$data[position]",Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"${data[position]}",Toast.LENGTH_LONG).show()
         }
 
         val _btnHapus = findViewById<Button>(R.id.btnHapus)

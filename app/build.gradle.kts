@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.paba.listview"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.paba.listview"
